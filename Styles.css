@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(358deg, rgba(35, 35, 85, 1) 0%, rgba(195, 176, 231, 1) 50%, rgba(156, 149, 255, 1) 100%);
+    height: 100%;
+}
+.form-container {
+    max-width: 540px;
+    margin: 100px;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.75);
+    background: #F1F2F8;
+    padding:10px;
+}
+/* Style for header */
+.form-header {
+    width: 100%;
+    background: #F1F2F7;
+}
+
+.form-header h2 {
+        margin: 0;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 25px;
+        color: #4D4A4B;
+        border-bottom: 3px solid whitesmoke;
+
+    }
+.section {
+    margin: 0;
+    padding-left: 15px;
+    background: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    border-bottom: 3px solid whitesmoke;
+    display: inline-block;
+}
+
+.section-one {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+
+}
+.section-two {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.section-three {
+    display: inline-block;
+    text-align:left;
+    margin: 10px;
+}
+
+.contact input {
+    height: 30px;
+    width: 43%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+}
+
+#country {
+    width: 180px;
+}
+#city {
+    width: 140px
+}
+#postCode {
+width:60px;
+}
+
+input {
+
+    width: 200px;
+    margin: 10px;
+}
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    
+}
+textarea {
+    margin-left: 10px;
+}
